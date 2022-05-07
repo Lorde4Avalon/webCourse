@@ -1,0 +1,62 @@
+.App {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1em;
+}
+
+.comment .info {
+    display: flex;
+}
+
+.comment .time {
+    color: gray;
+    margin-left: 1em;
+}
+
+.comment {
+    position: relative;
+    margin-bottom: 1em;
+    padding-left: 60px;
+}
+
+.comment-header {
+    font-size: large;
+    font-weight: bold;
+}
+
+.comment .actions
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.editor {
+    position: relative;
+    margin-bottom: 1em;
+    padding-left: 60px;
+}
+
+.avatar {
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.editor .avatar {
+    top: 14px;
+}
+
+.editor #text{
+    width: 100%;
+}
+
+.header {
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
